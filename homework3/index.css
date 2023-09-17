@@ -1,0 +1,10 @@
+body {
+  background-image: url("./revoluttteam_intagram_bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.b-rad20 {
+  border-radius: 20pc;
+}
