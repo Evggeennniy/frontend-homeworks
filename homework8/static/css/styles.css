@@ -1,0 +1,261 @@
+body {
+  font-family: Roboto;
+}
+
+/* Navigation */
+#navigation .nav-links {
+  background-color: #ececec;
+}
+#navigation .nav-link {
+  color: black;
+  text-decoration: none;
+  padding: 15px;
+  display: block;
+  font-weight: 400;
+  font-size: 14px;
+  font-style: normal;
+}
+#navigation .content-section-container {
+  padding: 15px 0px;
+}
+#navigation .logo-name {
+  text-transform: uppercase;
+  color: #f13c6e;
+  font-size: 36px;
+  font-weight: 700;
+  letter-spacing: 3.6px;
+  margin-left: 20px;
+}
+#navigation .second-nav-link {
+  color: black;
+  text-decoration: none;
+  display: block;
+  font-size: 16px;
+  padding: 25px;
+  font-weight: 400;
+  font-weight: 500;
+}
+
+/* Slider  */
+#slider-wrapper {
+  background-color: #f13c6e;
+}
+#slider-wrapper .container {
+  background-image: url("../barber-chair-with-bg.png");
+  background-repeat: no-repeat;
+  background-position: 500px;
+  background-size: 800px;
+  padding: 200px;
+}
+#slider-wrapper .slider-title {
+  font-size: 48px;
+  font-weight: 800;
+  margin-bottom: 50px;
+}
+#slider-wrapper .slider-text {
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 20px;
+}
+#slider-wrapper .slider-button {
+  padding: 10px 70px;
+  border-radius: 20px;
+  background: none;
+  border: 3px solid white;
+  letter-spacing: 0.7px;
+  font-size: 14px;
+  margin-top: 30px;
+}
+
+/* Special  */
+#special-wrapper {
+  padding-top: 80px;
+  padding-bottom: 80px;
+  background: var(--Gray, #efefef);
+}
+#special-wrapper .offers-list {
+  margin-bottom: 100px;
+}
+#special-wrapper .special-header {
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-left: 20px;
+  margin-bottom: 38px;
+}
+#special-wrapper .card {
+  background-color: white;
+  padding: 25px;
+  margin: 0px 20px;
+  flex-grow: 1;
+}
+#special-wrapper .card-image {
+  margin-bottom: 20px;
+}
+#special-wrapper .card-text {
+  color: #333;
+  text-align: center;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140.625%; /* 19.688px */
+  margin-bottom: 20px;
+}
+#special-wrapper .card-price {
+  font-size: 21px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 1.05px;
+  margin-bottom: 20px;
+}
+#special-wrapper .card-button {
+  background-color: #f13c6e;
+  border-radius: 30px;
+  padding: 10px 50px;
+  border: 0px;
+}
+
+#special-wrapper .some-information {
+  margin-bottom: 100px;
+}
+#special-wrapper .information-card {
+  padding: 35px;
+  background-color: #f13c6e;
+  flex-grow: 1;
+  margin: 0px 20px;
+}
+#special-wrapper .information-header {
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin-bottom: 25px;
+}
+#special-wrapper .information-text {
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140.625%;
+  margin-bottom: 25px;
+}
+#special-wrapper .enter-email {
+  border: 0px;
+  border-radius: 20px;
+  padding: 10px 25px;
+}
+#special-wrapper .store-map {
+  border: 3px solid white;
+  border-radius: 20px;
+  padding: 10px 40px;
+  background-color: #f13c6e;
+}
+
+#special-wrapper .impuls-images {
+  margin: 0px 20px 100px 20px;
+}
+#special-wrapper .impuls-image {
+  background-color: white;
+  padding: 35px 70px;
+}
+
+/* Footer  */
+#footer-block {
+  background-color: white;
+  padding-top: 60px;
+}
+#footer-block .footer-header {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 140.625%;
+  margin-bottom: 30px;
+}
+#footer-block .line {
+  margin-bottom: 25px;
+}
+#footer-block .footer-text {
+  color: var(--828282, #828282);
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+}
+#footer-block .footer-item {
+  margin-bottom: 60px;
+}
+#footer-block .content-section-container {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+#footer-block .additional-info {
+  background: var(--Gray, #efefef);
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+#footer-block .additional-text {
+  color: var(--828282, #828282);
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+#footer-block .icon-logo {
+  margin: 0px 20px 0px 0px;
+}
+
+/* Flex  */
+.display-flex {
+  display: flex;
+}
+.justify-content-between {
+  justify-content: space-between;
+}
+.justify-content-around {
+  justify-content: space-around;
+}
+.justify-content-center {
+  justify-content: center;
+}
+.align-items-center {
+  align-items: center;
+}
+.justify-content-start {
+  justify-content: start;
+}
+.flex-column {
+  flex-direction: column;
+}
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
+/* Other */
+.call-back {
+  border: 1px solid #f13c6e;
+  border-radius: 20px;
+  padding: 10px 40px;
+  margin-left: 40px;
+  background-color: white;
+}
+
+.display-block {
+  display: block;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+.line {
+  height: 1px;
+  background-color: lightgray;
+  opacity: 0.3;
+}
+
+.text-white {
+  color: white;
+}
