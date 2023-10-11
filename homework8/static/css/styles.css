@@ -76,19 +76,19 @@ body {
 }
 #special-wrapper .offers-list {
   margin-bottom: 100px;
+  column-gap: 8px;
+  row-gap: 8px;
 }
 #special-wrapper .special-header {
   font-size: 24px;
   font-style: normal;
   font-weight: 700;
   line-height: normal;
-  margin-left: 20px;
   margin-bottom: 38px;
 }
 #special-wrapper .card {
   background-color: white;
   padding: 25px;
-  margin: 0px 20px;
   flex-grow: 1;
 }
 #special-wrapper .card-image {
@@ -118,14 +118,15 @@ body {
   border: 0px;
 }
 
-#special-wrapper .some-information {
+#special-wrapper .some-information-list {
   margin-bottom: 100px;
+  column-gap: 5px;
+  row-gap: 5px;
 }
 #special-wrapper .information-card {
   padding: 35px;
   background-color: #f13c6e;
   flex-grow: 1;
-  margin: 0px 20px;
 }
 #special-wrapper .information-header {
   font-size: 18px;
@@ -154,11 +155,13 @@ body {
 }
 
 #special-wrapper .impuls-images {
-  margin: 0px 20px 100px 20px;
+  margin-bottom: 100px;
+  row-gap: 1px;
+  column-gap: 4px;
 }
 #special-wrapper .impuls-image {
   background-color: white;
-  padding: 35px 70px;
+  padding: 35px 74px;
 }
 
 /* Footer  */
@@ -173,8 +176,12 @@ body {
   line-height: 140.625%;
   margin-bottom: 30px;
 }
-#footer-block .line {
-  margin-bottom: 25px;
+#footer-block .footer-list {
+  padding: 0px 20px;
+  flex-grow: 1;
+}
+#footer-block .footer-links-block {
+  padding: 25px 0px 60px 0px;
 }
 #footer-block .footer-text {
   color: var(--828282, #828282);
@@ -182,13 +189,21 @@ body {
   font-style: normal;
   font-weight: 400;
   line-height: 28px;
-}
-#footer-block .footer-item {
-  margin-bottom: 60px;
+  display: block;
 }
 #footer-block .content-section-container {
-  margin-top: 40px;
-  margin-bottom: 40px;
+  padding: 40px 0px;
+}
+#footer-block .icon {
+  padding: 10px;
+  height: 20px;
+  width: 20px;
+  border: 2px solid #f13c6e;
+  border-radius: 100px;
+}
+#footer-block .icon-link {
+  margin-right: 20px;
+  padding: 5px;
 }
 #footer-block .additional-info {
   background: var(--Gray, #efefef);
