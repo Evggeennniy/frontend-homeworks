@@ -43,9 +43,9 @@ body {
 #slider-wrapper .container {
   background-image: url("../barber-chair-with-bg.png");
   background-repeat: no-repeat;
-  background-position: 500px;
+  background-position: right;
   background-size: 800px;
-  padding: 200px;
+  padding: 170px 0px;
 }
 #slider-wrapper .slider-title {
   font-size: 48px;
