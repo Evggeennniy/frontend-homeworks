@@ -1,0 +1,167 @@
+/* ---- Elements ---- */
+h1 {
+  font-size: 48px;
+  font-family: Roboto;
+  font-weight: 600;
+  line-height: normal;
+}
+
+h2 {
+  font-size: 32px;
+  font-family: Roboto;
+  font-weight: 600;
+  line-height: normal;
+}
+
+h3 {
+  font-size: 21px;
+  font-family: Roboto;
+  font-weight: 500;
+  line-height: normal;
+}
+
+p {
+  font-size: 16px;
+  font-family: Roboto;
+  font-weight: 400;
+}
+
+/* ---- Header ---- */
+.Header {
+  background: #eeeff1;
+  padding-top: 79px;
+  padding-bottom: 141px;
+}
+
+.Header__navigation-item {
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 165%;
+  letter-spacing: 1.6px;
+  display: inline-block;
+  margin: 0px 42px 0px -4px;
+}
+
+.Header__navigation-item:nth-child(1) {
+  margin-left: 0px;
+}
+
+.Header__header {
+  margin-top: 151px;
+}
+
+.Header__description {
+  margin-top: 60px;
+  width: 550px;
+  line-height: 164.063%;
+}
+
+.Header__button {
+  margin-top: 65px;
+  padding: 20px 40px 20px 40px;
+  width: 140px;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  background: #34547a;
+  color: white;
+}
+
+/* ---- Aboutme ---- */
+.Aboutme {
+  background: #f9f9f9;
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+.Aboutme__header {
+  text-align: center;
+}
+
+.Aboutme__description {
+  margin: 0 auto;
+  margin-top: 50px;
+  text-align: center;
+  width: 520px;
+  line-height: 164.063%;
+}
+
+/* ---- Information ---- #3 */
+.Information {
+  background-color: var(--Accent, #34547a);
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.Information__item {
+  display: inline-block;
+  margin: 0px 73px 0px -4px;
+}
+
+.Information__item-image {
+  width: 50px;
+  height: 50px;
+  color: white;
+}
+
+.Information__item-description {
+  margin: 0px 0px 0px 20px;
+  float: right;
+  color: white;
+  line-height: 180%;
+}
+
+/* ---- Video ---- */
+.Video {
+  background-color: #f9f9f9;
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+.Video__header {
+  text-align: center;
+}
+
+.Video__description {
+  margin: 0 auto;
+  margin-top: 50px;
+  text-align: center;
+  width: 550px;
+  line-height: 164.063%;
+}
+
+.Video__iframe {
+  display: block;
+  margin: 0 auto;
+  margin-top: 80px;
+}
+
+/* ---- Footer ---- */
+.Footer {
+  background-color: var(--Accent, #34547a);
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.Footer__container {
+  color: white;
+}
+
+.Footer__description {
+  font-size: 13px;
+  font-weight: 300;
+  margin-top: 15px;
+}
+
+/* ---- Other ---- */
+.container {
+  margin: 0 auto;
+  width: 1200px;
+}
+
+.text-gray {
+  color: gray;
+}/*# sourceMappingURL=styles.css.map */
