@@ -69,34 +69,37 @@ p {
   color: $header-font-color;
 }
 
+.header__navigation-home--modifier::after,
+.header__navigation-about--modifier::after,
+.header__navigation-works--modifier::after,
+.header__navigation-process--modifier::after,
+.header__navigation-contacts--modifier::after {
+  background-size: cover;
+  margin-left: 5px;
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  content: "";
+}
+
 @mixin header-navigation-modifier($image) {
   &::after {
     background-image: url("./static/#{$image}");
-    background-size: cover;
-    margin-left: 5px;
-    position: absolute;
-    width: 25px;
-    height: 25px;
-    content: "";
   }
 }
 
 .header__navigation-home--modifier {
   @include header-navigation-modifier("browser.png");
 }
-
 .header__navigation-about--modifier {
   @include header-navigation-modifier("internet.png");
 }
-
 .header__navigation-works--modifier {
   @include header-navigation-modifier("layers.png");
 }
-
 .header__navigation-process--modifier {
   @include header-navigation-modifier("shield.png");
 }
-
 .header__navigation-contacts--modifier {
   @include header-navigation-modifier("speech-bubble.png");
 }

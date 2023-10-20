@@ -70,54 +70,37 @@ p {
   color: white;
 }
 
-.header__navigation-home--modifier::after {
-  background-image: url("./static/browser.png");
+.header__navigation-home--modifier::after,
+.header__navigation-about--modifier::after,
+.header__navigation-works--modifier::after,
+.header__navigation-process--modifier::after,
+.header__navigation-contacts--modifier::after {
   background-size: cover;
   margin-left: 5px;
   position: absolute;
   width: 25px;
   height: 25px;
   content: "";
+}
+
+.header__navigation-home--modifier::after {
+  background-image: url("./static/browser.png");
 }
 
 .header__navigation-about--modifier::after {
   background-image: url("./static/internet.png");
-  background-size: cover;
-  margin-left: 5px;
-  position: absolute;
-  width: 25px;
-  height: 25px;
-  content: "";
 }
 
 .header__navigation-works--modifier::after {
   background-image: url("./static/layers.png");
-  background-size: cover;
-  margin-left: 5px;
-  position: absolute;
-  width: 25px;
-  height: 25px;
-  content: "";
 }
 
 .header__navigation-process--modifier::after {
   background-image: url("./static/shield.png");
-  background-size: cover;
-  margin-left: 5px;
-  position: absolute;
-  width: 25px;
-  height: 25px;
-  content: "";
 }
 
 .header__navigation-contacts--modifier::after {
   background-image: url("./static/speech-bubble.png");
-  background-size: cover;
-  margin-left: 5px;
-  position: absolute;
-  width: 25px;
-  height: 25px;
-  content: "";
 }
 
 /* ---- Aboutme ---- */
