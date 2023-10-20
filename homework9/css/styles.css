@@ -1,118 +1,124 @@
-@import "./variables.scss";
-
 /* ---- Elements ---- */
 h1 {
   font-size: 48px;
-  font-family: $font-family;
+  font-family: Roboto;
   font-weight: 600;
   line-height: normal;
 }
 
 h2 {
   font-size: 32px;
-  font-family: $font-family;
+  font-family: Roboto;
   font-weight: 600;
   line-height: normal;
 }
 
 h3 {
   font-size: 21px;
-  font-family: $font-family;
+  font-family: Roboto;
   font-weight: 500;
   line-height: normal;
 }
 
 p {
   font-size: 16px;
-  font-family: $font-family;
+  font-family: Roboto;
   font-weight: 400;
 }
 
 /* ---- Header ---- */
 .Header {
-  background: $header-bg-color;
+  background: #eeeff1;
   padding-top: 79px;
   padding-bottom: 141px;
 }
+
 .Header__navigation-item {
-  font-family: $font-family;
+  font-family: Roboto;
   font-size: 16px;
   font-weight: 400;
   line-height: 165%;
   letter-spacing: 1.6px;
-
   display: inline-block;
   margin: 0px 62px 0px -4px;
 }
+
 .Header__navigation-item:nth-child(1) {
   margin-left: 0px;
 }
+
+.header__navigation-link {
+  text-decoration: none;
+  color: black;
+}
+
 .Header__header {
   margin-top: 151px;
 }
+
 .Header__description {
   margin-top: 60px;
   width: 550px;
   line-height: 164.063%;
 }
+
 .Header__button {
   margin-top: 65px;
   padding: 20px 40px 20px 40px;
-
   width: 140px;
   text-align: center;
-  font-family: $font-family;
+  font-family: Roboto;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
   background: #34547a;
-  color: $header-font-color;
+  color: white;
 }
 
-.header__navigation-home--modifier::after,
-.header__navigation-about--modifier::after,
-.header__navigation-works--modifier::after,
-.header__navigation-process--modifier::after,
-.header__navigation-contacts--modifier::after {
+.header__link-home--modifier::after,
+.header__link-about--modifier::after,
+.header__link-works--modifier::after,
+.header__link-process--modifier::after,
+.header__link-contacts--modifier::after {
   background-size: cover;
-  margin-left: 5px;
   position: absolute;
+  margin-left: 3px;
   width: 25px;
   height: 25px;
   content: "";
 }
 
-@mixin header-navigation-modifier($image) {
-  &::after {
-    background-image: url("./static/#{$image}");
-  }
+.header__link-home--modifier::after {
+  background-image: url("../images/browser.png");
 }
 
-.header__navigation-home--modifier {
-  @include header-navigation-modifier("browser.png");
+.header__link-about--modifier::after {
+  background-image: url("../images/internet.png");
 }
-.header__navigation-about--modifier {
-  @include header-navigation-modifier("internet.png");
+
+.header__link-works--modifier::after {
+  background-image: url("../images/layers.png");
 }
-.header__navigation-works--modifier {
-  @include header-navigation-modifier("layers.png");
+
+.header__link-process--modifier::after {
+  background-image: url("../images/shield.png");
 }
-.header__navigation-process--modifier {
-  @include header-navigation-modifier("shield.png");
-}
-.header__navigation-contacts--modifier {
-  @include header-navigation-modifier("speech-bubble.png");
+
+.header__link-contacts--modifier::after {
+  background-image: url("../images/speech-bubble.png");
 }
 
 /* ---- Aboutme ---- */
 .Aboutme {
-  background: $aboutme-bg-color;
+  background: #f9f9f9;
   padding-top: 120px;
   padding-bottom: 120px;
 }
+
 .Aboutme__header {
   text-align: center;
 }
+
 .Aboutme__description {
   margin: 0 auto;
   margin-top: 50px;
@@ -123,35 +129,40 @@ p {
 
 /* ---- Information ---- #3 */
 .Information {
-  background-color: $information-bg-color;
+  background-color: var(--Accent, #34547a);
   padding-top: 100px;
   padding-bottom: 100px;
 }
+
 .Information__item {
   display: inline-block;
   margin: 0px 73px 0px -4px;
 }
+
 .Information__item-image {
   width: 50px;
   height: 50px;
-  color: $information-font-color;
+  color: white;
 }
+
 .Information__item-description {
   margin: 0px 0px 0px 20px;
   float: right;
-  color: $information-font-color;
+  color: white;
   line-height: 180%;
 }
 
 /* ---- Video ---- */
 .Video {
-  background-color: $video-bg-color;
+  background-color: #f9f9f9;
   padding-top: 120px;
   padding-bottom: 120px;
 }
+
 .Video__header {
   text-align: center;
 }
+
 .Video__description {
   margin: 0 auto;
   margin-top: 50px;
@@ -159,6 +170,7 @@ p {
   width: 550px;
   line-height: 164.063%;
 }
+
 .Video__iframe {
   display: block;
   margin: 0 auto;
@@ -167,14 +179,15 @@ p {
 
 /* ---- Footer ---- */
 .Footer {
-  background-color: $footer-bg-color;
+  background-color: var(--Accent, #34547a);
   padding-top: 50px;
   padding-bottom: 50px;
 }
 
 .Footer__container {
-  color: $footer-font-color;
+  color: white;
 }
+
 .Footer__description {
   font-size: 13px;
   font-weight: 300;
@@ -189,4 +202,4 @@ p {
 
 .text-gray {
   color: gray;
-}
+}/*# sourceMappingURL=styles.css.map */
