@@ -40,7 +40,7 @@ p {
   line-height: 165%;
   letter-spacing: 1.6px;
   display: inline-block;
-  margin: 0px 62px 0px -4px;
+  margin: 0px 0px 0px -4px;
 }
 
 .Header__navigation-item:nth-child(1) {
@@ -50,6 +50,7 @@ p {
 .header__navigation-link {
   text-decoration: none;
   color: black;
+  margin-right: 62px;
 }
 
 .Header__header {
@@ -75,36 +76,36 @@ p {
   color: white;
 }
 
-.header__link-home--modifier::after,
-.header__link-about--modifier::after,
-.header__link-works--modifier::after,
-.header__link-process--modifier::after,
-.header__link-contacts--modifier::after {
+.header__navigation-home--modifier::after,
+.header__navigation-about--modifier::after,
+.header__navigation-works--modifier::after,
+.header__navigation-process--modifier::after,
+.header__navigation-contacts--modifier::after {
   background-size: cover;
   position: absolute;
-  margin-left: 3px;
+  margin-left: 5px;
   width: 25px;
   height: 25px;
   content: "";
 }
 
-.header__link-home--modifier::after {
+.header__navigation-home--modifier::after {
   background-image: url("../images/browser.png");
 }
 
-.header__link-about--modifier::after {
+.header__navigation-about--modifier::after {
   background-image: url("../images/internet.png");
 }
 
-.header__link-works--modifier::after {
+.header__navigation-works--modifier::after {
   background-image: url("../images/layers.png");
 }
 
-.header__link-process--modifier::after {
+.header__navigation-process--modifier::after {
   background-image: url("../images/shield.png");
 }
 
-.header__link-contacts--modifier::after {
+.header__navigation-contacts--modifier::after {
   background-image: url("../images/speech-bubble.png");
 }
 

@@ -42,7 +42,7 @@ p {
   letter-spacing: 1.6px;
 
   display: inline-block;
-  margin: 0px 62px 0px -4px;
+  margin: 0px 0px 0px -4px;
 }
 .Header__navigation-item:nth-child(1) {
   margin-left: 0px;
@@ -50,6 +50,7 @@ p {
 .header__navigation-link {
   text-decoration: none;
   color: black;
+  margin-right: 62px;
 }
 .Header__header {
   margin-top: 151px;
@@ -73,39 +74,39 @@ p {
   color: $header-font-color;
 }
 
-.header__link-home--modifier::after,
-.header__link-about--modifier::after,
-.header__link-works--modifier::after,
-.header__link-process--modifier::after,
-.header__link-contacts--modifier::after {
+.header__navigation-home--modifier::after,
+.header__navigation-about--modifier::after,
+.header__navigation-works--modifier::after,
+.header__navigation-process--modifier::after,
+.header__navigation-contacts--modifier::after {
   background-size: cover;
   position: absolute;
-  margin-left: 3px;
+  margin-left: 5px;
   width: 25px;
   height: 25px;
   content: "";
 }
 
-@mixin header-link-modifier($image) {
+@mixin header-navigation-modifier($image) {
   &::after {
     background-image: url("../images/#{$image}");
   }
 }
 
-.header__link-home--modifier {
-  @include header-link-modifier("browser.png");
+.header__navigation-home--modifier {
+  @include header-navigation-modifier("browser.png");
 }
-.header__link-about--modifier {
-  @include header-link-modifier("internet.png");
+.header__navigation-about--modifier {
+  @include header-navigation-modifier("internet.png");
 }
-.header__link-works--modifier {
-  @include header-link-modifier("layers.png");
+.header__navigation-works--modifier {
+  @include header-navigation-modifier("layers.png");
 }
-.header__link-process--modifier {
-  @include header-link-modifier("shield.png");
+.header__navigation-process--modifier {
+  @include header-navigation-modifier("shield.png");
 }
-.header__link-contacts--modifier {
-  @include header-link-modifier("speech-bubble.png");
+.header__navigation-contacts--modifier {
+  @include header-navigation-modifier("speech-bubble.png");
 }
 
 /* ---- Aboutme ---- */
