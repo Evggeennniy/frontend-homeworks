@@ -42,7 +42,7 @@ p {
   letter-spacing: 1.6px;
 
   display: inline-block;
-  margin: 0px 42px 0px -4px;
+  margin: 0px 62px 0px -4px;
 }
 .Header__navigation-item:nth-child(1) {
   margin-left: 0px;
@@ -67,6 +67,38 @@ p {
   font-weight: 400;
   background: #34547a;
   color: $header-font-color;
+}
+
+@mixin header-navigation-modifier($image) {
+  &::after {
+    background-image: url("./static/#{$image}");
+    background-size: cover;
+    margin-left: 5px;
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    content: "";
+  }
+}
+
+.header__navigation-home--modifier {
+  @include header-navigation-modifier("browser.png");
+}
+
+.header__navigation-about--modifier {
+  @include header-navigation-modifier("internet.png");
+}
+
+.header__navigation-works--modifier {
+  @include header-navigation-modifier("layers.png");
+}
+
+.header__navigation-process--modifier {
+  @include header-navigation-modifier("shield.png");
+}
+
+.header__navigation-contacts--modifier {
+  @include header-navigation-modifier("speech-bubble.png");
 }
 
 /* ---- Aboutme ---- */

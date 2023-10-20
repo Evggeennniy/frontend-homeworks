@@ -40,7 +40,7 @@ p {
   line-height: 165%;
   letter-spacing: 1.6px;
   display: inline-block;
-  margin: 0px 42px 0px -4px;
+  margin: 0px 62px 0px -4px;
 }
 
 .Header__navigation-item:nth-child(1) {
@@ -68,6 +68,56 @@ p {
   font-weight: 400;
   background: #34547a;
   color: white;
+}
+
+.header__navigation-home--modifier::after {
+  background-image: url("./static/browser.png");
+  background-size: cover;
+  margin-left: 5px;
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  content: "";
+}
+
+.header__navigation-about--modifier::after {
+  background-image: url("./static/internet.png");
+  background-size: cover;
+  margin-left: 5px;
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  content: "";
+}
+
+.header__navigation-works--modifier::after {
+  background-image: url("./static/layers.png");
+  background-size: cover;
+  margin-left: 5px;
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  content: "";
+}
+
+.header__navigation-process--modifier::after {
+  background-image: url("./static/shield.png");
+  background-size: cover;
+  margin-left: 5px;
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  content: "";
+}
+
+.header__navigation-contacts--modifier::after {
+  background-image: url("./static/speech-bubble.png");
+  background-size: cover;
+  margin-left: 5px;
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  content: "";
 }
 
 /* ---- Aboutme ---- */
