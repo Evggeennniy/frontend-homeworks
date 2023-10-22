@@ -27,43 +27,42 @@ p {
 }
 
 /* ---- Header ---- */
-.Header {
+.header {
   background: #eeeff1;
   padding-top: 79px;
   padding-bottom: 141px;
 }
 
-.Header__navigation-item {
+.header__navigation-item {
   font-family: Roboto;
   font-size: 16px;
   font-weight: 400;
   line-height: 165%;
   letter-spacing: 1.6px;
   display: inline-block;
-  margin: 0px 0px 0px -4px;
+  margin: 0px 62px 0px -4px;
 }
 
-.Header__navigation-item:nth-child(1) {
+.header__navigation-item:nth-child(1) {
   margin-left: 0px;
 }
 
 .header__navigation-link {
   text-decoration: none;
   color: black;
-  margin-right: 62px;
 }
 
-.Header__header {
+.header__header {
   margin-top: 151px;
 }
 
-.Header__description {
+.header__description {
   margin-top: 60px;
   width: 550px;
   line-height: 164.063%;
 }
 
-.Header__button {
+.header__button {
   margin-top: 65px;
   padding: 20px 40px 20px 40px;
   width: 140px;
@@ -110,17 +109,17 @@ p {
 }
 
 /* ---- Aboutme ---- */
-.Aboutme {
+.aboutme {
   background: #f9f9f9;
   padding-top: 120px;
   padding-bottom: 120px;
 }
 
-.Aboutme__header {
+.aboutme__header {
   text-align: center;
 }
 
-.Aboutme__description {
+.aboutme__description {
   margin: 0 auto;
   margin-top: 50px;
   text-align: center;
@@ -129,24 +128,24 @@ p {
 }
 
 /* ---- Information ---- #3 */
-.Information {
+.information {
   background-color: var(--Accent, #34547a);
   padding-top: 100px;
   padding-bottom: 100px;
 }
 
-.Information__item {
+.information__item {
   display: inline-block;
   margin: 0px 73px 0px -4px;
 }
 
-.Information__item-image {
+.information__item-image {
   width: 50px;
   height: 50px;
   color: white;
 }
 
-.Information__item-description {
+.information__item-description {
   margin: 0px 0px 0px 20px;
   float: right;
   color: white;
@@ -154,17 +153,17 @@ p {
 }
 
 /* ---- Video ---- */
-.Video {
+.video {
   background-color: #f9f9f9;
   padding-top: 120px;
   padding-bottom: 120px;
 }
 
-.Video__header {
+.video__header {
   text-align: center;
 }
 
-.Video__description {
+.video__description {
   margin: 0 auto;
   margin-top: 50px;
   text-align: center;
@@ -172,24 +171,24 @@ p {
   line-height: 164.063%;
 }
 
-.Video__iframe {
+.video__iframe {
   display: block;
   margin: 0 auto;
   margin-top: 80px;
 }
 
 /* ---- Footer ---- */
-.Footer {
+.footer {
   background-color: var(--Accent, #34547a);
   padding-top: 50px;
   padding-bottom: 50px;
 }
 
-.Footer__container {
+.footer__container {
   color: white;
 }
 
-.Footer__description {
+.footer__description {
   font-size: 13px;
   font-weight: 300;
   margin-top: 15px;
