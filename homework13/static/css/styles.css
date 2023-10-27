@@ -16,7 +16,7 @@ body {
   font-style: normal;
 }
 #navigation .content-section-container {
-  padding: 15px 0px;
+  padding: 15px 10px;
   display: flex;
   flex-wrap: wrap;
 }
@@ -47,7 +47,7 @@ body {
     padding: 10px;
   }
   #navigation .content-section-container {
-    padding: 5px 0px;
+    padding: 5px 10px;
   }
   #navigation .logo-name {
     font-size: 25px;
@@ -79,7 +79,7 @@ body {
   background-repeat: no-repeat;
   background-position: right;
   background-size: 800px;
-  padding: 170px 0px;
+  padding: 170px 10px;
 }
 #slider-wrapper .slider-title {
   font-size: 48px;
@@ -344,6 +344,8 @@ body {
 .container {
   margin: 0 auto;
   max-width: 1200px;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 .line {
